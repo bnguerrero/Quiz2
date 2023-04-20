@@ -15,8 +15,8 @@ public class Stripe
         this.experationDate = experationDate;
     }
 
-    public void stripeTransaction(double paymentAmount, String cardholderName, String cardNumber, String experationDate)
+    public void stripeTransaction()
     {
-        System.out.println("Payment amount: " + this.paymentAmount + "Cardholder Name " + this.cardholderName + "Card number: " + this.cardNumber + "Experation date: " + this.experationDate);
+        System.out.println("Payment amount: " + this.paymentAmount + " Cardholder Name: " + this.cardholderName + " Card number: " + this.cardNumber + " Experation date: " + this.experationDate);
     }
 }
